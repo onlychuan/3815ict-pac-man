@@ -86,7 +86,7 @@ def dir_gate(x, y, direction, offset = 0):
     if is_gate(arg_x + intcos(direction), arg_y + intsin(direction)):
         return True
 
-    return False
+    return False 
 
 def write_map(x, y, val):
     layout[floor(y)] [floor(x)] = val
