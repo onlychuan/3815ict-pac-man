@@ -21,7 +21,7 @@ from math import floor
 joystick.init()
 joysticks = [joystick.Joystick(x) for x in range(joystick.get_count())]
 for j in joysticks:
-    j.init()    
+    j.init()
 
 #######################
 ###      KEYS       ###
