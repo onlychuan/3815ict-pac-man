@@ -11,7 +11,7 @@ from sys import exit
 from globals import *
 from map import *
 from drawing import *
-from netgame import *
+
 from menus import *
 from math import floor
 

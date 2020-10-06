@@ -123,7 +123,7 @@ def draw_intro(timer):
     clear_screen()
     draw_prompt()
     # Intro text
-    intro_text = ['FytrapDev presents','Pygame-powered']
+    intro_text = ['3815ICT','Pygame-powered']
     for i in range(0,2):
         if timer >= 30 + 90 * i:
             draw_text_centered(intro_text[i], (SCREEN_HW, 16 + 16 * i))

@@ -8,7 +8,7 @@ from copy import deepcopy
 ###     PACMAN      ###
 #######################
 
-class Pacman:
+class Pacman:    
 
     move_speed = 4/3
     anim_spd = 1/2
