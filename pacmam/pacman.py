@@ -8,7 +8,7 @@ from copy import deepcopy
 ###     PACMAN      ###
 #######################
 
-class Pacman:    
+class Pacman:
 
     move_speed = 4/3
     anim_spd = 1/2
@@ -17,7 +17,7 @@ class Pacman:
     dead_anim_max = 12
     xoffset = TILE_SIZE
     yoffset = TILE_SIZE
-
+      
     def __init__(self, skin=(0,0), x=14, y=23.5, pl_id=0, remote=False):
 
         self.x = x * TILE_SIZE
